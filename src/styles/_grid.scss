@@ -1,0 +1,80 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+
+  &__card_first {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(../images/layout/card-1.png);
+    background-size: cover;
+  }
+
+  &__card_second {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(../images/layout/card-2.png);
+    background-size: cover;
+  }
+
+  &__card_third {
+    grid-area: 1 / 3 / 3 / 4;
+    background-image: url(../images/layout/card-3.png);
+    background-size: cover;
+  }
+
+  &__card_fourth {
+    grid-area: 1 / 4 / 2 / 5;
+    background-image: url(../images/layout/card-4.png);
+    background-size: cover;
+  }
+
+  &__card_fifth {
+    grid-area: 2 / 1 / 3 / 2;
+    background-image: url(../images/layout/card-5.png);
+    background-size: cover;
+  }
+
+  &__card_sixth {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(../images/layout/card-6.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+  }
+
+  &__wrap {
+    z-index: 3;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__card_sixth::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+    position: absolute;
+    top: 0;
+    left:0;
+  }
+
+  &__card_image {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__card_seventh {
+    grid-area: 2 / 4 / 3 / 5;
+    background-image: url(../images/layout/card-7.png);
+    background-size: cover;
+  }
+}

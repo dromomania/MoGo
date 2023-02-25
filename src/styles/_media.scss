@@ -1,0 +1,21 @@
+.media {
+  display: flex;
+  flex-direction: column;
+
+  &__separator {
+    width: 100%;
+    height: 1px;
+    background-color: #C6CBCD;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  background-color: #F8F8F8;
+  &__inner {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__column {
+    width: calc(33.33% - 30px);
+  }
+
+  &__caption {
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  &__copyright {
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

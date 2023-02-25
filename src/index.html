@@ -10,39 +10,91 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="header__inner">
-        <a class="logo" href="#">
-          <img src="./images/mogo.png" alt="MoGo">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item"><a class="menu__link" href="#">service</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">work</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">blog</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-            <a class="menu__icon" href="#">
-              <svg aria-hidden="true" height="24" width="24" class="icon">
-                <use href="./images/shopping-cart.svg#cartIcon"></use>
-              </svg>
-            </a>
-            <a class="menu__icon" href="#">
-              <svg aria-hidden="true" height="24" width="24" class="icon">
-                <use href="./images/search.svg#searchIcon"></use>
-              </svg>
-            </a>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
   <div class="wrapper">
-    <main class="main">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img src="./images/mogo.png" alt="MoGo">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a class="menu__link" href="#">service</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">work</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">blog</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+              <a class="menu__icon" href="#">
+                <svg aria-hidden="true" height="24" width="24" class="icon">
+                  <use href="./images/shopping-cart.svg#cartIcon"></use>
+                </svg>
+              </a>
+              <a class="menu__icon" href="#">
+                <svg aria-hidden="true" height="24" width="24" class="icon">
+                  <use href="./images/search.svg#searchIcon"></use>
+                </svg>
+              </a>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
+
+    <main class="main">
       <section class="banner">
+        <div class="container">
+          <div class="banner__content">
+            <h2 class="banner__subtitle">Creative Template</h2>
+            <h1 class="banner__title">Welcome to MoGo</h1>
+            <div class="banner__separator"></div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--<section class="about">
+        <div class="container">
+          <div class="headline">
+            <div class="headline__description">What we do</div>
+            <h3 class="headline__title">story about us</h3>
+            <div class="headline__separator"></div>
+            <div class="headline__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</div>
+          </div>
+          .team
+        </div>
+      </section>-->
+
+      <section class="design">
+        <div class="container">
+          <div class="design__content">
+            <div class="headline">
+              <div class="headline__description">For all devices</div>
+              <h3 class="headline__title">unique design</h3>
+              <div class="headline__separator"></div>
+            </div>
+            <div class="design__laptop">
+              <img src="./images/screen.png" alt="">
+            </div>
+            <div class="design__mobile"><img src="./images/mobile.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="grid__card grid__card_first"></div>
+        <div class="grid__card grid__card_second"></div>
+        <div class="grid__card grid__card_third"></div>
+        <div class="grid__card grid__card_fourth"></div>
+        <div class="grid__card grid__card_fifth"></div>
+        <div class="grid__card grid__card_sixth">
+          <div class="grid__wrap">
+            <img class="grid__card_image" src="./images/layout/prize.png" alt="">
+            <div class="grid__title">creatively design</div>
+            <div class="grid__subtitle">Lorem ipsum dolor sit</div>
+          </div>
+        </div>
+        <div class="grid__card grid__card_seventh"></div>
       </section>
 
     </main>
@@ -60,16 +112,32 @@
                 <p class="media__info">15k followers</p>
                 <div class="media__separator"></div>
                 <div class="media__links">
-                  <div class="media__caption"></div>
+                  <div class="media__caption">Follow Us</div>
                   <nav class="media__menu">
-                    <a href="" class="media__icon"></a>
-                    <a href="" class="media__icon"></a>
-                    <a href="" class="media__icon"></a>
-                    <a href="" class="media__icon"></a>
-                    <a href="" class="media__icon"></a>
-                    <a href="" class="media__icon"></a>
-                    <a href="" class="media__icon"></a>
-                    <a href="" class="media__icon"></a>
+                    <a href="" class="media__icon"><svg aria-hidden="true" height="24" width="24" class="icon">
+                        <use href="./images/facebook.svg#facebookIcon"></use>
+                      </svg></a>
+                    <a href="" class="media__icon"><svg aria-hidden="true" height="24" width="24" class="icon">
+                        <use href="./images/twitter.svg#twitterIcon"></use>
+                      </svg></a>
+                    <a href="" class="media__icon"><svg aria-hidden="true" height="24" width="24" class="icon">
+                        <use href="./images/instagram.svg#instagramIcon"></use>
+                      </svg></a>
+                    <a href="" class="media__icon"><svg aria-hidden="true" height="24" width="24" class="icon">
+                        <use href="./images/pinterest.svg#pinterestIcon"></use>
+                      </svg></a>
+                    <a href="" class="media__icon"><svg aria-hidden="true" height="24" width="24" class="icon">
+                        <use href="./images/linkedin.svg#linkedinIcon"></use>
+                      </svg></a>
+                    <a href="" class="media__icon"><svg aria-hidden="true" height="24" width="24" class="icon">
+                        <use href="./images/youtube.svg#youtubeIcon"></use>
+                      </svg></a>
+                    <a href="" class="media__icon"><svg aria-hidden="true" height="24" width="24" class="icon">
+                        <use href="./images/dribble.svg#dribbleIcon"></use>
+                      </svg></a>
+                    <a href="" class="media__icon"><svg aria-hidden="true" height="24" width="24" class="icon">
+                        <use href="./images/tiktok.svg#tiktokIcon"></use>
+                      </svg></a>
                   </nav>
                 </div>
                 <div class="footer__form"></div>
@@ -79,52 +147,54 @@
             <div class="footer__column">
               <div class="footer__title">blogs</div>
               <a class="card" href="#">
-                <div class="card__column"><img src="" alt=""></div>
+                <div class="card__column"><img src="./images/firstcard.png" alt=""></div>
                 <div class="card__column">
-                  <div class="card__title"></div>
-                  <div class="card__subtitle"></div>
+                  <div class="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                  <div class="card__subtitle">jan.9.22.15</div>
                 </div>
               </a>
               <a class="card" href="#">
-                <div class="card__column"><img src="" alt=""></div>
+                <div class="card__column"><img src="./images/secondcard.png" alt=""></div>
                 <div class="card__column">
-                  <div class="card__title"></div>
-                  <div class="card__subtitle"></div>
+                  <div class="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                  <div class="card__subtitle">jan.9.22.15</div>
                 </div>
               </a>
               <a class="card" href="#">
-                <div class="card__column"><img src="" alt=""></div>
+                <div class="card__column"><img src="./images/thirdcard.png" alt=""></div>
                 <div class="card__column">
-                  <div class="card__title"></div>
-                  <div class="card__subtitle"></div>
+                  <div class="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                  <div class="card__subtitle">jan.9.22.15</div>
                 </div>
               </a>
             </div>
 
 
             <div class="footer__column">
-              <div class="footer__title">blogs</div>
+              <div class="footer__title">instagram</div>
               <div class="gallery">
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
+                <div class="gallery__item"><img src="./images/photo-1.png" alt=""></div>
+                <div class="gallery__item"><img src="./images/photo-2.png" alt=""></div>
+                <div class="gallery__item"><img src="./images/photo-3.png" alt=""></div>
+                <div class="gallery__item"><img src="./images/photo-4.png" alt=""></div>
+                <div class="gallery__item"><img src="./images/photo-5.png" alt=""></div>
+                <div class="gallery__item"><img src="./images/photo-6.png" alt=""></div>
+                <div class="gallery__item"><img src="./images/photo-7.png" alt=""></div>
+                <div class="gallery__item"><img src="./images/photo-8.png" alt=""></div>
+                <div class="gallery__item"><img src="./images/photo-9.png" alt=""></div>
               </div>
-              <div class="footer__caption"></div>
+              <a class="footer__caption">see all photos</a>
             </div>
 
           </div>
         </div>
       </div>
-      <div class="footer__copyright">Copyright © 2021 mogo. All Rights Reserved</div>
+      <div class="footer__copyright">
+        <div class="container">
+          Copyright © 2021 mogo. All Rights Reserved</div>
+      </div>
     </footer>
   </div>
-
 
 
 </body>
