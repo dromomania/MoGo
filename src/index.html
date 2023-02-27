@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./styles/app.scss">
   <title>Document</title>
 </head>
@@ -13,10 +18,12 @@
   <div class="wrapper">
     <header class="header">
       <div class="container">
-        <div class="header__inner">
-          <a class="logo" href="#">
-            <img src="./images/mogo.png" alt="MoGo">
-          </a>
+        <div class="header__top">
+          <div class="header__logo">
+            <a class="logo" href="#">
+              <img src="./images/mogo.png" alt="MoGo">
+            </a>
+          </div>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item"><a class="menu__link" href="#">service</a></li>
@@ -40,15 +47,16 @@
       </div>
     </header>
 
-
     <main class="main">
       <section class="banner">
         <div class="container">
           <div class="banner__content">
-            <h2 class="banner__subtitle">Creative Template</h2>
-            <h1 class="banner__title">Welcome to MoGo</h1>
-            <div class="banner__separator"></div>
-
+            <div class="banner__block">
+              <h2 class="banner__subtitle">Creative Template</h2>
+              <h1 class="banner__title">Welcome to MoGo</h1>
+              <div class="banner__separator"></div>
+              <a class="banner__btn" href="#">learn more</a>
+            </div>
           </div>
         </div>
       </section>
@@ -147,7 +155,7 @@
                   </div>
                   <div class="service__icon service__icon_arrow">
                     <svg aria-hidden="true" height="42" width="42" class="icon">
-                      <use href="./images/service/arrow-up.svg#arrowupIcon"></use>
+                      <use href="./images/service/arrow-down.svg#arrowdownIcon"></use>
                     </svg>
                   </div>
                 </div>
@@ -162,14 +170,14 @@
                   <div class="service__wrap">
                     <div class="service__icon">
                       <svg aria-hidden="true" height="42" width="42" class="icon">
-                        <use href="./images/service/face-icon.svg#faceIcon"></use>
+                        <use href="./images/service/circle.svg#circleIcon"></use>
                       </svg>
                     </div>
                     <div class="service__name">photography</div>
                   </div>
                   <div class="service__icon service__icon_arrow">
                     <svg aria-hidden="true" height="42" width="42" class="icon">
-                      <use href="./images/service/arrow-up.svg#arrowupIcon"></use>
+                      <use href="./images/service/arrow-down.svg#arrowdownIcon"></use>
                     </svg>
                   </div>
                 </div>
@@ -184,14 +192,14 @@
                   <div class="service__wrap">
                     <div class="service__icon">
                       <svg aria-hidden="true" height="42" width="42" class="icon">
-                        <use href="./images/service/face-icon.svg#faceIcon"></use>
+                        <use href="./images/service/gear.svg#gearIcon"></use>
                       </svg>
                     </div>
                     <div class="service__name">photography</div>
                   </div>
                   <div class="service__icon service__icon_arrow">
                     <svg aria-hidden="true" height="42" width="42" class="icon">
-                      <use href="./images/service/arrow-up.svg#arrowupIcon"></use>
+                      <use href="./images/service/arrow-down.svg#arrowdownIcon"></use>
                     </svg>
                   </div>
                 </div>
@@ -202,7 +210,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -240,10 +247,18 @@
               <a class="our-team__link" href="#">
                 <img class="our-team__image" src="./images/users/user-2.png" alt="">
                 <div class="our-team__content">
-                  <svg aria-hidden="true" height="40" width="40" class="our-team__icon">
-                    <use href="./images/team/icon-team.svg#teamIcon"></use>
+                  <svg aria-hidden="true" height="42" width="42" class="our-team__icon">
+                    <use href="./images/users/facebook.svg#facebookIcon"></use>
                   </svg>
-                  <div class="our-team__text">Super team</div>
+                  <svg aria-hidden="true" height="42" width="42" class="our-team__icon">
+                    <use href="./images/users/twitter.svg#twitterIcon"></use>
+                  </svg>
+                  <svg aria-hidden="true" height="42" width="42" class="our-team__icon">
+                    <use href="./images/users/pinterest.svg#pinterestIcon"></use>
+                  </svg>
+                  <svg aria-hidden="true" height="42" width="42" class="our-team__icon">
+                    <use href="./images/users/instagram.svg#instagramIcon"></use>
+                  </svg>
                 </div>
               </a>
             </div>
@@ -251,10 +266,18 @@
               <a class="our-team__link" href="#">
                 <img class="our-team__image" src="./images/users/user-3.png" alt="">
                 <div class="our-team__content">
-                  <svg aria-hidden="true" height="40" width="40" class="our-team__icon">
-                    <use href="./images/team/icon-team.svg#teamIcon"></use>
+                  <svg aria-hidden="true" height="42" width="42" class="our-team__icon">
+                    <use href="./images/users/facebook.svg#facebookIcon"></use>
                   </svg>
-                  <div class="our-team__text">Super team</div>
+                  <svg aria-hidden="true" height="42" width="42" class="our-team__icon">
+                    <use href="./images/users/twitter.svg#twitterIcon"></use>
+                  </svg>
+                  <svg aria-hidden="true" height="42" width="42" class="our-team__icon">
+                    <use href="./images/users/pinterest.svg#pinterestIcon"></use>
+                  </svg>
+                  <svg aria-hidden="true" height="42" width="42" class="our-team__icon">
+                    <use href="./images/users/instagram.svg#instagramIcon"></use>
+                  </svg>
                 </div>
               </a>
             </div>
@@ -409,13 +432,13 @@
         <div class="container">
           <div class="footer__inner">
 
-            <div class="footer__column">
-              <a class="footer__logo" href="#"><img src="./images/footer-logo.png" alt="MoGo"></a>
+            <div class="footer__column footer__column__first">
+              <a class="footer__logo" href="#"><img src="./images/footer/footer-logo.png" alt="MoGo"></a>
               <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin
                 varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</p>
 
               <div class="media">
-                <p class="media__info">15k followers</p>
+                <p class="media__info"><span>15k</span> followers</p>
                 <div class="media__separator"></div>
                 <div class="media__links">
                   <div class="media__caption">Follow Us</div>
@@ -446,11 +469,14 @@
                       </svg></a>
                   </nav>
                 </div>
-                <div class="footer__form"></div>
               </div>
+              <form action="#" class="footer__form">
+                <input type="email" name="" id="" class="footer__email" placeholder="Your Email">
+                <input type="submit" value="subscribe" class="footer__btn">
+              </form>
             </div>
 
-            <div class="footer__column">
+            <div class="footer__column footer__column_second">
               <div class="footer__title">blogs</div>
               <a class="card" href="#">
                 <div class="card__column"><img src="./images/firstcard.png" alt=""></div>
@@ -475,7 +501,7 @@
               </a>
             </div>
 
-            <div class="footer__column">
+            <div class="footer__column footer__column_third">
               <div class="footer__title">instagram</div>
               <div class="gallery">
                 <div class="gallery__item"><img src="./images/photo-1.png" alt=""></div>
@@ -488,11 +514,13 @@
                 <div class="gallery__item"><img src="./images/photo-8.png" alt=""></div>
                 <div class="gallery__item"><img src="./images/photo-9.png" alt=""></div>
               </div>
-              <a class="footer__caption">see all photos</a>
+              <a class="footer__caption" href="#">see all photos</a>
             </div>
-
           </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="footer__separator"></div>
       </div>
       <div class="footer__copyright">
         <div class="container">
@@ -500,7 +528,6 @@
       </div>
     </footer>
   </div>
-
 
 </body>
 

@@ -23,12 +23,12 @@
 
 
   &__title {
-    font-size: 24px;
+    font-size: $font-size-m;
     font-weight: 700;
   }
 
   &__subtitle {
-    font-size: 18px;
+    font-size: $font-size-s;
     font-weight: 400;
   }
 
@@ -43,5 +43,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
+    font-size: $font-size-xxs;
+    font-weight: 400;
   }
 }

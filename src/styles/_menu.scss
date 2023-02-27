@@ -14,6 +14,12 @@
     text-transform: uppercase;
   }
 
+  &__link {
+    font-size: $font-size-xs;
+    font-weight: 600;
+    color: #fff;
+  }
+
   &__item {
     padding-left: 35px;
   }

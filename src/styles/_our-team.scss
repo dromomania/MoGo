@@ -21,8 +21,13 @@
   }
 
   &__title {
-    font-size: 24px;
+    font-size: $font-size-m;
     font-weight: 700;
+  }
+
+  &__subtitle {
+    font-size: $font-size-s;
+    font-weight: 400;
   }
 
   &__item {

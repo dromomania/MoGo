@@ -1,4 +1,18 @@
 .card {
   display: flex;
   gap: 30px;
+
+  &__title {
+    font-size: $font-size-s;
+    font-weight: 700;
+    color: #2D3033;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-size: $font-size-xxs;
+    font-weight: 400;
+    color: #2D3033;
+    text-transform: uppercase;
+  }
 }
