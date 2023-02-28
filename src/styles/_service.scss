@@ -38,8 +38,14 @@
     //overflow-y: scroll;
   }
 
+  &__cover {
+    transition: all .4s ease-out;
+    cursor: pointer;
+  }
+
   &__cover:hover > &__text {
     display: initial;
+    cursor: pointer;
   }
 
   &__wrap {
@@ -58,6 +64,5 @@
     text-transform: uppercase;
     font-size: $font-size-m;
     font-weight: 700;
-    //line-height: 28.18px;
   }
 }
