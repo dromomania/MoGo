@@ -5,7 +5,7 @@
   &__separator {
     width: 100%;
     height: 1px;
-    background-color: #C6CBCD;
+    background-color: $color-gray;
   }
 
   &__links {
@@ -31,8 +31,7 @@
     font-style: italic;
     font-weight: 400;
     font-size: $font-size-xxs;
-    color: #C6CBCD;
-
+    color: $color-gray;
   }
 
   &__menu {

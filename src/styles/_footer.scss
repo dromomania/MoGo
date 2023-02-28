@@ -1,5 +1,5 @@
 .footer {
-  background-color: #F8F8F8;
+  background-color: $color-bg;
 
   &__content {
     margin-top: 78px;
@@ -28,19 +28,19 @@
     text-decoration: underline;
     font-size: $font-size-xxs;
     font-weight: 400;
-    color: #2D3033;
+    color: $color-black;
     text-transform: uppercase;
     transition: all .3s ease;
   }
 
   &__caption:hover {
-    color: #95E1D3;
+    color: $color-aquamarine;
   }
 
   &__copyright {
     font-size: $font-size-xxs;
     font-weight: 700;
-    color: #2D3033;
+    color: $color-black;
     text-align: center;
     text-transform: uppercase;
     margin-top: 20px;
@@ -49,7 +49,7 @@
 
   &__separator {
     height: 1px;
-    background-color: #C6CBCD;
+    background-color: $color-gray;
     width: 100%;
     margin-top: 42px;
   }
@@ -62,13 +62,13 @@
 
   &__email {
     border: none;
-    border: 1px solid #C6CBCD;
+    border: 1px solid $color-gray;
     background: none;
     outline: none;
     padding: 16px 10px;
     font-size: $font-size-s;
     font-weight: 400;
-    color: #C6CBCD;
+    color: $color-gray;
     margin-right: -5px;
     transition: all .1s ease-in-out;
     text-align: center;
@@ -79,9 +79,9 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: $font-size-s;
-    color: #fff;
-    border: 1px solid #C6CBCD;
-    background-color: #95E1D3;
+    color: $color-white;
+    border: 1px solid $color-gray;
+    background-color: $color-aquamarine;
     transition: all .2s ease-in-out;
   }
 }

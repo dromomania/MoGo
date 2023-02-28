@@ -52,7 +52,7 @@
   &__wrap {
     z-index: 3;
     text-align: center;
-    color: #fff;
+    color: $color-white;
   }
 
   &__card_sixth::after {
@@ -62,7 +62,7 @@
     background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
     position: absolute;
     top: 0;
-    left:0;
+    left: 0;
   }
 
   &__card_image {

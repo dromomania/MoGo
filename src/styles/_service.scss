@@ -43,7 +43,7 @@
     cursor: pointer;
   }
 
-  &__cover:hover > &__text {
+  &__cover:hover>&__text {
     display: initial;
     cursor: pointer;
   }
