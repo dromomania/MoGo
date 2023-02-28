@@ -41,7 +41,7 @@
   }
 
   &__subtitle {
-    font-family: 'Kaushan Script', cursive;
+    font-family: "Kaushan Script", cursive;
     font-size: $font-size-h2;
     font-weight: 400;
   }
@@ -72,7 +72,7 @@
     font-weight: 900;
     border: 4px solid $color-white;
     background-color: transparent;
-    transition: background-color .2s ease;
+    transition: background-color 0.2s ease;
   }
 
   &__btn:hover {

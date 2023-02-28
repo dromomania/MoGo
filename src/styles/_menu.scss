@@ -14,7 +14,6 @@
     font-size: $font-size-s;
   }
 
-
   &__burger-list {
     width: 100%;
     display: none;
@@ -30,7 +29,6 @@
   }
 
   &__burger-label {
-
     @media (max-width: 576px) {
       display: block;
       padding-right: 30px;
@@ -49,7 +47,7 @@
     font-size: $font-size-xs;
     font-weight: 600;
     color: $color-white;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 
   &__link:hover {

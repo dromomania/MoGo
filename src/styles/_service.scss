@@ -1,5 +1,4 @@
 .service {
-
   &__content {
     display: flex;
     justify-content: space-between;
@@ -39,11 +38,11 @@
   }
 
   &__cover {
-    transition: all .4s ease-out;
+    transition: all 0.4s ease-out;
     cursor: pointer;
   }
 
-  &__cover:hover>&__text {
+  &__cover:hover > &__text {
     display: initial;
     cursor: pointer;
   }

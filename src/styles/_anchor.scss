@@ -21,11 +21,11 @@
     font-size: $font-size-s;
     font-weight: 500;
     color: $color-white;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
   }
 
   &__link:hover {
-    color: #F38281;
+    color: #f38281;
   }
 
   &__link span {

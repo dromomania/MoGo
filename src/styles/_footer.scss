@@ -30,7 +30,7 @@
     font-weight: 400;
     color: $color-black;
     text-transform: uppercase;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 
   &__caption:hover {
@@ -70,7 +70,7 @@
     font-weight: 400;
     color: $color-gray;
     margin-right: -5px;
-    transition: all .1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     text-align: center;
   }
 
@@ -82,6 +82,6 @@
     color: $color-white;
     border: 1px solid $color-gray;
     background-color: $color-aquamarine;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 }
