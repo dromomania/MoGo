@@ -1,5 +1,5 @@
 .banner {
-  background: url(../images/background.jpg);
+  background: url(../images/banner/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -24,12 +24,20 @@
     align-items: center;
     z-index: 3;
     color: $color-white;
+
+    @media (max-width: 576px) {
+      max-width: 576px;
+    }
   }
 
   &__block {
     text-align: center;
     margin-top: 17%;
     z-index: 3;
+
+    @media (max-width: 576px) {
+      max-width: 296px;
+    }
   }
 
   &__subtitle {
@@ -68,6 +76,6 @@
   }
 
   &__btn:hover {
-    background-color: $color-dark-gray
+    background-color: $color-dark-gray;
   }
 }

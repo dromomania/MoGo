@@ -3,6 +3,40 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 576px) {
+    display: none;
+  }
+
+  &__burger,
+  &__burger-label {
+    display: none;
+    color: $color-white;
+    font-size: $font-size-s;
+  }
+
+
+  &__burger-list {
+    width: 100%;
+    display: none;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__burger:checked + &__burger-label + &__burger-list {
+    display: block;
+  }
+
+  &__burger-label {
+
+    @media (max-width: 576px) {
+      display: block;
+      padding-right: 30px;
+    }
+  }
+
   &__list {
     display: flex;
     justify-content: space-between;
